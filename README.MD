@@ -1,5 +1,7 @@
 # Laravel installer
 
+[![Actions Status](https://github.com/jonathanguo/laravel-installer/workflows/build/badge.svg)](https://github.com/jonathanguo/laravel-installer/actions)
+
 This is an image simply includes laravel installer binary. By using docker container to initialise the laravel application, you don't have to manage your local PHP version and environment.
 
 
