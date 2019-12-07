@@ -3,14 +3,16 @@ name: Build
 on:
   push:
     branches:
-    - master
+      - master
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
 
   build:
- 
+
     runs-on: ubuntu-latest
- 
+
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
