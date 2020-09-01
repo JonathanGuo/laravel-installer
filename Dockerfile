@@ -6,7 +6,7 @@
 FROM composer:latest
 
 LABEL maintainer="Jonathan Guo<coderjono@gmail.com>"
-LABEL build_date="2020-08-01 00:02:39 UTC"
+LABEL build_date="2020-09-01 00:03:29 UTC"
 
 COPY entrypoint.sh /entrypoint.sh
 
