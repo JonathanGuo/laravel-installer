@@ -7,7 +7,7 @@ This is an image simply includes laravel installer binary. By using docker conta
 
 ## How to use
 
-Mount the directory you prefer to initialise new Laravel project, and run the following command by replacing `MY_REPO` with your project name.
+Mount the directory you prefer to initialise a new Laravel project, and run the following command by replacing `MY_REPO` with your project name.
 
 ```bash
 docker run --rm -it \
